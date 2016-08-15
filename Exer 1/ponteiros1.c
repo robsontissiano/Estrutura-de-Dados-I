@@ -2,7 +2,11 @@
 #include<stdlib.h>
 
 
-
+/*
+1. Escreva um programa em C que declara e inicializa uma variável double, uma variável int e
+uma variável char. Logo após, declarar e inicializar um ponteiro para cada uma das variáveis
+declaradas anteriormente. O programa deverá exibir o endereço, o valor arma
+*/
 
 
 int main(){
@@ -33,6 +37,5 @@ int main(){
 	printf("Valor de ptrz: %c \n", ptrz);
 	printf("End. de ptrz: %d \n", &ptrz);
 	printf("Conteudo apontado por ptrz: %c \n", *ptrz);	
-
 
 }
